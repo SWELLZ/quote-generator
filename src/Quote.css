@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: rgba(40, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    font-weight: 500;
+    font-size: 24px;
+}
+#quote-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 30px 70px;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+}
+.quote-author {
+    padding: 15px 0;
+    text-align: end;
+    font-weight: 100;
+}
+#action-buttons {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+}
+#action-buttons i {
+    font-size: 30px;
+    color: rgba(40, 40, 40);
+    padding: 3px;
+}
+#action-buttons i:hover {
+    color:rgba(70, 70, 70);
+}
+.new-quote-btn {
+    position: absolute;
+    right: 0;
+}
+.new-quote-btn button {
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(40, 40, 40);
+    border-radius: 5px;
+}
+.new-quote-btn button:hover {
+    cursor: pointer;
+    background-color: rgba(70, 70, 70);
+}
+#my-name {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
