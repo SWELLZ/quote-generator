@@ -19,7 +19,6 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 80%;
     margin: auto;
     background-color: white;
     padding: 30px 70px;
@@ -65,4 +64,9 @@ body {
     color: white;
     font-size: 12px;
     padding: 20px;
+}
+@media screen and (max-width: 500px) {
+    #quote-container {
+        width: 300px;
+    }
 }
